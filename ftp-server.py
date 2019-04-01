@@ -1,6 +1,6 @@
-from pyftpdlib.authorizers import DummyAuthorizer
-from pyftpdlib.handlers import FTPHandler
-from pyftpdlib.servers import FTPServer
+from pyftpdlib import DummyAuthorizer
+from pyftpdlib import FTPHandler
+from pyftpdlib import FTPServer
 
 authorizer = DummyAuthorizer()
 authorizer.add_user("user", "12345", "/home/dtolbertcooke", perm="elradfmw")
