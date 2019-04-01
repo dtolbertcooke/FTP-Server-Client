@@ -3,8 +3,8 @@ from pyftpdlib.handlers import FTPHandler
 from pyftpdlib.servers import FTPServer
 
 authorizer = DummyAuthorizer()
-authorizer.add_user("user", "12345", "/home/dtolbertcooke", perm="elradfmw")
-authorizer.add_anonymous("/home/dtolbertcooke", perm="elradfmw")
+authorizer.add_user("user", "12345", "/Users/dougtolbert-cooke", perm="elradfmw")
+authorizer.add_anonymous("/Users/dougtolbert-cooke", perm="elradfmw")
 
 handler = FTPHandler
 handler.authorizer = authorizer
