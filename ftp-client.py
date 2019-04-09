@@ -19,4 +19,4 @@ def downloadFile():
     localfile.close()
 
 uploadFile()
-#downloadFile()
+downloadFile()
